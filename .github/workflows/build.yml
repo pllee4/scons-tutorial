@@ -1,0 +1,15 @@
+name: CI
+on:
+  [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install dependencies
+        run: sudo apt-get install python3 python3-pip -y
+      - name: Install scons
+        run: python3 -m pip install scons
+      - name: Build
+        run: scons
