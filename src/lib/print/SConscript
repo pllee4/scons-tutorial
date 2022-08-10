@@ -1,0 +1,2 @@
+env = Environment(CPPPATH=['./include'])
+env.StaticLibrary(target='print', source='./src/print.cpp')

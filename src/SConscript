@@ -1,1 +1,2 @@
+SConscript(dirs=['lib'])
 SConscript(dirs=['app'])
