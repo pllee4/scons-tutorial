@@ -1,0 +1,2 @@
+env = Environment(CPPPATH=['../../../lib/print/include'])
+env.Program(target='tutorial3', source='tutorial3.cpp', LIBS=['print'], LIBPATH=['../../../lib/print'])
