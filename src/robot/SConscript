@@ -1,0 +1,6 @@
+env = Environment(CPPPATH=['./interface'])
+robot = ARGUMENTS.get('robot', "Not set")
+if (robot == "omni"):
+    env.StaticLibrary(target='robot', source='./omni/src/omni.cpp')
+else:
+    env.StaticLibrary(target='robot', source='./differential/src/differential.cpp')

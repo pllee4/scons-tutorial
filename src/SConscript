@@ -1,2 +1,3 @@
 SConscript(dirs=['lib'])
+SConscript(dirs=['robot'])
 SConscript(dirs=['app'])
