@@ -1,5 +1,7 @@
 # scons-tutorial
 
+![master](https://github.com/pllee4/scons-tutorial/actions/workflows/build.yml/badge.svg)
+
 This repo is using almost same structure as from previous [cmake-tutorial](https://github.com/pllee4/cmake-tutorial), please refer to the repo to compare between cmake and scons.
 
 ## Dependencies
