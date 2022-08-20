@@ -1,4 +1,5 @@
 SConscript('./tutorial1/SConscript', variant_dir='./tutorial1/build', duplicate=0)
 SConscript('./tutorial2/SConscript', variant_dir='./tutorial2/build', duplicate=0)
 SConscript('./tutorial3/SConscript', variant_dir='./tutorial3/build', duplicate=0)
+SConscript('./tutorial4/SConscript', variant_dir='./tutorial4/build', duplicate=0)
 SConscript('./demo/SConscript', variant_dir='./demo/build', duplicate=0)

@@ -1,0 +1,3 @@
+SConscript(dirs=['print'])
+env = Environment(CPPPATH=['../print/include'])
+env.Program(target='tutorial4', source='tutorial4.cpp', LIBS=['printv1'], LIBPATH=['./print'])
