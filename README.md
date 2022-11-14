@@ -2,6 +2,8 @@
 
 ![master](https://github.com/pllee4/scons-tutorial/actions/workflows/build.yml/badge.svg)
 
+<a href='https://ko-fi.com/pinloon' target='_blank'><img height='35' style='border:0px;height:46px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' />
+
 This repo is using almost same structure as from previous [cmake-tutorial](https://github.com/pllee4/cmake-tutorial), please refer to the repo to compare between cmake and scons.
 
 ## Dependencies
